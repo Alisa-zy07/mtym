@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.box{
+		width: 400px;
+		height: 700px;
+		/*background: pink;*/
+		margin: 0 auto;
+		padding-top: 50px;
+		position: relative;
+	}
+	.logo1{
+		width: 160px;
+		height: 55px;
+		margin: 0 auto;
+	}
+	.logo{
+		position: absolute;
+		width: 160px;
+		height: 55px;
+		background-size: 160px 55px;
+		/*margin-top: 50px;*/
+	}
+	.input{
+		width: 320px;
+		height:200px ;
+		/*border: 1px solid black;*/
+		margin: 79px auto;
+	}
+	.bl{
+		margin-right: 11px;
+		color: #333333;
+	}
+	.input1{
+		border-bottom: 1px solid #efeef4;
+		text-align: center;
+		color: #333;
+	    font-size: 14px;
+	    width: 320px;
+	    height: 50px;
+	    line-height:50px;
+
+	}
+	.input01{
+		border: none;
+	    margin: 0;
+	    background: none;
+	    width: 80%;
+   	 	height: 100%;
+	}
+	.input2{
+		width:100%;
+    	overflow: hidden;
+    	border-bottom: none;
+        align-content: center;
+    	position: relative;
+        height: 50px;
+   	 	/*padding-left:5px;*/
+    	line-height: 50px;
+		border-bottom: 1px solid #efeef4;
+    	display: flex;
+    	align-content: center;
+    	/*position: relative;*/
+	}
+	.yzm{
+		border: none;
+	    margin: 0;
+	    background: none;
+	    width: 60%;
+   	 	height: 100%;
+	}
+	.hqyzm{
+		width: 40%;
+		overflow: hidden;
+    	border-bottom: none;
+        align-content: center;
+	    text-align: right;
+	    /*text-align: center;*/
+	    line-height: 50px;
+	    /*padding-right: .21333rem;*/
+	    font-size: 14px;   
+	    color: #747ed6;
+	    border-radius: 0;
+	    height: 50px;
+    	border: none;
+   	 	display: block;
+   	 	background: none;
+   		/*padding-right:5px;    */
+	}
+	.dl{
+		width: 320px;
+		height: 46px;
+		background: #b9beea;
+		border-radius: 18px;
+	    /*text-align: right;*/
+	    /*padding-right: .21333rem;*/
+	    font-size: 16px;   
+	    /*height: 2.13333rem;*/
+    	border: none;
+    	margin-left: auto;
+    	margin-right: auto;
+   	 	display: block;
+   	 	margin-top: 43px;
+   	 	/*background: none;*/
+   		/*padding: 0 .42667rem;        */
+   		color: #dcdcf1;
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="logo1">
+				<img src="img/zcl.png" alt="" class="logo">
+		</div>
+		<div class="input">
+			<div class="input1">
+				<span class="bl"> +86  </span>
+				<input type="text" class="input01"  placeholder="请输入手机号码" > 
+			</div>
+			<div class="input2">
+				<input type="text" class="yzm"  placeholder="请输入验证码"> 
+				<input type="button" value="获取验证码" class="hqyzm">
+			</div>
+				<input type="button" value="登录" class="dl">
+		</div>
+	</div>
+</body>
+</html>
